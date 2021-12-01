@@ -1,0 +1,57 @@
+/* Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Variables */
+:root {
+  --while: #fff;
+  --aquamarine: #7fffd4;
+  --red: #d32f2f;
+  --black: #282c34;
+}
+
+/* Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  color: var(--aquamarine);
+}
+
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: app-logo-spin infinite 30s linear;
+}
+
+.app-header {
+  background-color: var(--black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--while);
+}
+
+.app-link {
+  color: var(--red);
+}
+
+/* Animations */
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
