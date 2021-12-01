@@ -4,7 +4,7 @@ HTML/CSS play with Live Server
 
 Author: Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
 
-Deploy to Netlify: ...
+Deploy to Netlify: https://html-css-liveserver.netlify.app/
 
 ## Requirements
 
